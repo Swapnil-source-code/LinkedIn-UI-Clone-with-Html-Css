@@ -25,7 +25,7 @@ a{
   align-items: center;
   justify-content: space-between;
   background: #ffffff;
-  padding: 6px 6%;
+  padding: 6px 10.25%;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -119,7 +119,7 @@ a{
 
 
 .container{
-  padding: 20px 6%;
+  padding: 20px 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -136,6 +136,11 @@ a{
 
 .sidebar-profile-box{
   background: #ffffff;
+  border-radius: 10px;
+}
+.sidebar-profile-box .bg-img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .sidebar-profile-info{
   padding: 0 25px;
@@ -202,6 +207,7 @@ a{
   background: #ffffff;
   padding: 5px 25px;
   margin: 12px 0;
+  border-radius: 10px;
 }
 
 .sidebar-activity h3{
@@ -252,6 +258,7 @@ a{
 .sidebar-news{
   background: #ffffff;
   padding: 10px 25px;
+  border-radius: 10px;
 }
 
 .info-icon{
@@ -288,6 +295,7 @@ a{
   text-align: center;
   margin: 12px 0;
   font-size: 12px;
+  border-radius: 10px;
 }
 .sidebar-ad img{
   width: 60px;
@@ -356,6 +364,7 @@ a{
 
 .create-post{
   background: #ffffff;
+  border-radius: 10px;
 }
 
 .create-post-input{
@@ -372,11 +381,11 @@ a{
 
 .create-post-input textarea{
   width: 100%;
-  border: 0;
   outline: 0;
   resize: none;
   background: transparent;
-  margin-top: 8px;
+  padding: 10px;
+  border-radius: 20px;
 }
 ::placeholder{
   font-weight: 500;
@@ -409,6 +418,7 @@ a{
   color: #ffffff;
   border-top: 0;
   border-right: 0;
+  border-bottom-right-radius: 10px;
 }
 
 .sort-by{
@@ -441,6 +451,7 @@ a{
   background: #ffffff;
   padding: 20px 25px 5px;
   margin: 5px 0 15px;
+  border-radius: 10px;
 }
 .post-author{
   display: flex;
@@ -545,6 +556,7 @@ a{
   color: #fff;
   padding: 20px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .user-info{
@@ -601,12 +613,16 @@ a{
 
 .profile-container{
   background: #ffffff;
+  border-radius: 10px;
 }
 
 .profile-container-inner{
   padding: 0 4% 10px;
 }
-
+.pro-bg{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 .profile-pic{
   width: 150px;
   border-radius: 50%;
@@ -672,6 +688,7 @@ a{
   background: #ffffff;
   padding: 20px 4% 30px;
   margin: 12px 0;
+  border-radius: 10px;
 }
 
 .profile-description h2{
@@ -777,6 +794,7 @@ a{
   padding: 15px 25px;
   margin: 12px 0;
   font-size: 12px;
+  border-radius: 10px;
 }
 
 .sidebar-people h3{
@@ -813,7 +831,7 @@ a{
 }
 
 .profile-footer{
-  padding:  0 6% 30px;
+  padding:  0 10.5% 30px;
 }
 
 .profile-footer .sidebar-useful-link{
