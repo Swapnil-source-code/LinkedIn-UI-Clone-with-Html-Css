@@ -8,7 +8,7 @@
 </head>
 <body>
   
-  <nav class="navbar">
+  <nav class="desktop navbar">
     <div class="navbar-left">
       <a href="./index.html" class="logo"><img src="./images/logo.png" alt="logo"></a>
       <div class="search-box">
@@ -27,7 +27,7 @@
     </div>
     <div class="navbar-right">
       <div class="online">
-       <img src="./images/user-1.png" alt="user-img" class="nav-profile-img" onclick="toggleMenu()">
+       <img src="./images/user-1.png" alt="user-img" id="toggleButton" class="nav-profile-img" onclick="toggleMenu()">
       </div>
     </div>
 
@@ -69,9 +69,59 @@
       </div>
     </div>
 
-
   </nav>
 
+  <div class="mobile-navbar">
+    <nav class="navbar">
+      <div class="navbar-center">
+        <ul>
+          <li><a href="#" class="active-link"><img src="./images/home.png"><span>Home</span></a></li>
+          <li><a href="#"><img src="./images/network.png"><span>My Network</span></a></li>
+          <li><a href="#"><img src="./images/jobs.png"><span>Job</span></a></li>
+          <li><a href="#"><img src="./images/message.png"><span>Messaging</span></a></li>
+          <li><a href="#"><img src="./images/notification.png"><span>Notifiaction</span></a></li>
+        </ul>
+      </div>
+
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="./images/user-1.png" >
+            <div>
+              <h3>Rayan Walton</h3>
+              <a href="./profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/feedback.png" alt="">
+            <p>Give Feedback</p>
+            <span> > </span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/setting.png" alt="">
+            <p>Setting</p>
+            <span> > </span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/help.png" alt="">
+            <p>Help & Support</p>
+            <span> > </span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/display.png" alt="">
+            <p>Display & Accessiblity</p>
+            <span> > </span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/logout.png" alt="">
+            <p>Logout</p>
+            <span> > </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
 
   <div class="container">
     <!-- Profile-Main -->
